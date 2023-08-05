@@ -59,7 +59,7 @@ Below, we provide simple examples to show how to use Qwen-7B with 🤖 ModelScop
 Before running the code, make sure you have setup the environment and installed the required packages. Make sure the pytorch version is higher than `1.12`, and then install the dependent libraries.
 
 ```bash
-pip install transformers==4.31.0 accelerate tiktoken einops
+pip install transformers==4.31.0 accelerate tiktoken einops transformers_stream_generator
 ```
 
 If your device supports fp16 or bf16, we recommend installing [flash-attention](https://github.com/Dao-AILab/flash-attention) for higher efficiency and lower memory usage. (**flash-attention is optional and the project can run normally without installing it**)
